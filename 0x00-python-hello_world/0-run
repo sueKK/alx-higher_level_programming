@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "$PYFILE" ]
+then
+    echo "Please set the PYFILE environment variable to the name of the Python script you want to run."
+else
+
+    python "$PYFILE"
+fi
